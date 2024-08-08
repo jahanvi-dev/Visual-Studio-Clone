@@ -1,0 +1,226 @@
+/* css boiler plate */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    /* border-bottom: 1px solid black; */
+}
+
+.navBox1{
+    height: 100%;
+    width: 55%;
+    padding: 1.2% 0 0 8%;
+    display: flex;
+    font-family: 'Poppins';
+    /* background-color: blanchedalmond; */
+}
+
+.navBox1 img{
+    height: 3.5vh;
+}
+
+.navBox1 p{
+    font-size: 1.3vw;
+    margin-left: 1.5%;
+    font-weight: 500;
+
+}
+
+.navBox1 a{
+    font-size: 1vw;
+    margin-left: 3.5%;
+    text-decoration: none;
+    padding-top: 0.3%;
+    font-weight: 500;
+    color: black;
+}
+
+.navBox2{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    /* background-color: bisque; */
+    padding: 1% 0 0 10%;
+    
+}
+
+.navBox2 img{
+    height: 3.3vh;
+    rotate: 230deg;
+    margin-top: 0.8%;
+}
+
+.navBox2 i{
+    rotate: 198deg;
+    font-size: 1.2vw;
+    padding-top: 2%
+}
+
+.searchBox{
+    height: 90%;
+    width: 40%;
+    margin-left: 3%;
+    display: flex;
+    /* background-color: orchid; */
+    position: relative;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.searchBox i{
+    rotate: 90deg;
+    position: absolute;
+    top: 19%;
+    font-size: 1vw;
+    left: 6%;
+}
+
+.searchBox input{
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 15%;
+    font-size: 0.9vw;
+    border: 0.1px solid lightgray;
+    font-family: 'Poppins';
+    font-weight: 300;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.847);
+}
+
+
+.navBox2 button{
+    height: 90%;
+    border: none;
+    width: 8vw;
+    color: white;
+    margin-left: 2%;
+    font-size: 1vw;
+    font-weight: 500;
+    background-color: rgb(14, 125, 210);
+    font-family: 'Poppins';
+    border-radius: 4px;
+}
+
+.navBox2 button:hover{
+    background-color: rgb(4, 116, 201);
+}
+
+
+
+/* version para */
+#version{
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 500;
+    font-size: 0.9vw;
+}
+
+#version a{
+    color:  rgb(0,120,212);
+}
+
+
+/* homepage main part */
+main{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    margin-top: 2.5%;
+    /* background-color: lightblue; */
+}
+
+.mainBox1{
+    height: 100%;
+    width: 35%;
+    /* background-color: rgb(26, 139, 66); */
+    padding: 6% 0 0 9%;
+}
+
+.mainBox1  button{
+    height: 5.4vh;
+    font-family: 'Poppins';
+    font-weight: 440;
+    width: 21vw;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.961);
+    border: 0.1px solid rgb(215, 213, 213);
+}
+
+
+
+.mainBox1 h1{
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 3.8vw;
+    margin-top: 5%;
+    font-size: 3vw;
+    transform: scaleY(1.08);
+
+}
+
+.mainBox1 #downloadMain{
+    background-color: rgb(14, 125, 210);
+    color: white;
+    font-family: 'Poppins';
+    font-size: 1.1vw;
+    height: 6.6vh;
+    width: 15vw;
+    border-radius: 5px;
+    margin-top: 7%;
+    transform: scaleY(1.06);
+
+
+}
+
+.mainBox1 #downloadMain:hover{
+    background-color: rgb(2, 104, 182);
+}
+
+.mainBox1 a{
+    display: inline-block;
+    margin-top: 5%;
+    font-family: 'Poppins';
+    font-size: 0.9vw;
+    color: rgb(14, 125, 210);
+    font-weight: 500;
+}
+
+.mainBox1 p{
+    font-size: 0.7vw;
+    font-family: 'Poppins';
+
+}
+
+.mainBox1 p a{
+    font-size: 0.7vw;
+}
+
+.mainBox2{
+    height: 85%;
+    width: 50%;
+    /* background-color: lightseagreen; */
+    margin: 1% 0 0 6%;
+    border-radius: 10px;
+    border: 0.1px solid lightgrey;
+}
+
+.mainBox2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
